@@ -67,14 +67,14 @@ setup(
     ],
     python_requires='>=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*',
     install_requires=[
-        'keras==2.4.3',
-        'tensorflow==2.2',
+        'keras==2.*',
+        'tensorflow==2.*',
         'numpy',
         'pandas',
         'scikit-learn',
         'scipy',
         'scanpy',
-        'anndata',
+        'anndata==0.8.*',
         # eg: 'aspectlib==1.1.1', 'six>=1.7',
     ],
     extras_require={
